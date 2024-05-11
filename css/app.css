@@ -1,0 +1,116 @@
+.title {
+  color: #000000;
+  text-align: center;
+  margin: 50px 0;
+  font-size: 50px;
+}
+
+.title span {
+  color: blue;
+}
+
+/* .enlaces__tienda{
+
+} */
+
+.padre {
+  background-color: bisque;
+  padding: 50px 0;
+  height: 600px;
+
+  /* --- */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* horizontal */
+  align-items: center; /* certical */
+  gap: 50px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: green;
+}
+.box4 {
+  background-color: purple;
+}
+
+/* -- */
+
+.padre-column {
+  background-color: brown;
+  padding: 50px 0;
+  height: 600px;
+  gap: 50px;
+
+  /* --- */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */
+}
+
+.box5,
+.box6,
+.box7,
+.box8 {
+  width: 100px;
+  height: 100px;
+}
+
+.box5 {
+  background-color: red;
+}
+
+.box6 {
+  background-color: blue;
+}
+.box7 {
+  background-color: green;
+}
+.box8 {
+  background-color: purple;
+}
+
+.enlaces__tienda {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.enlace__text {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.container__nav {
+  border-top: 2px solid red;
+}
+
+.bg__principal {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
